@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.0.0-beta.2)
+  - Kingfisher (5.1.1)
+  - SwiftHash (2.0.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.0-beta.2)
+  - Kingfisher (~> 5.0)
+  - SwiftHash
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Kingfisher
+    - SwiftHash
+
+SPEC CHECKSUMS:
+  Alamofire: d1e5493588babe3e7b56ae29e8032942f4de09fe
+  Kingfisher: 2558186963e5be42d98c5b110ccb3130148b77e4
+  SwiftHash: 6d312abe61c8359bdef8d0093642f3a70b1c17ba
+
+PODFILE CHECKSUM: 4aba2dce66496892aab5d984c9a8b4572a4ae87e
+
+COCOAPODS: 1.6.0

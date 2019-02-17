@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2495F09C22177CB00024300F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2495F09B22177CB00024300F /* AppDelegate.swift */; };
+		2495F09E22177CB00024300F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2495F09D22177CB00024300F /* ViewController.swift */; };
+		2495F0A122177CB00024300F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2495F09F22177CB00024300F /* Main.storyboard */; };
+		2495F0A422177CB00024300F /* ComprasApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2495F0A222177CB00024300F /* ComprasApp.xcdatamodeld */; };
+		2495F0A622177CB50024300F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2495F0A522177CB50024300F /* Assets.xcassets */; };
+		2495F0A922177CB50024300F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2495F0A722177CB50024300F /* LaunchScreen.storyboard */; };
+		2495F0B422177CB50024300F /* ComprasAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2495F0B322177CB50024300F /* ComprasAppTests.swift */; };
+		2495F0BF22177CB50024300F /* ComprasAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2495F0BE22177CB50024300F /* ComprasAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2495F0B022177CB50024300F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2495F09022177CB00024300F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2495F09722177CB00024300F;
+			remoteInfo = ComprasApp;
+		};
+		2495F0BB22177CB50024300F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2495F09022177CB00024300F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2495F09722177CB00024300F;
+			remoteInfo = ComprasApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2495F09822177CB00024300F /* ComprasApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComprasApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2495F09B22177CB00024300F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2495F09D22177CB00024300F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2495F0A022177CB00024300F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2495F0A322177CB00024300F /* ComprasApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ComprasApp.xcdatamodel; sourceTree = "<group>"; };
+		2495F0A522177CB50024300F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2495F0A822177CB50024300F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2495F0AA22177CB50024300F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2495F0AF22177CB50024300F /* ComprasAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComprasAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2495F0B322177CB50024300F /* ComprasAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprasAppTests.swift; sourceTree = "<group>"; };
+		2495F0B522177CB50024300F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2495F0BA22177CB50024300F /* ComprasAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComprasAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2495F0BE22177CB50024300F /* ComprasAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprasAppUITests.swift; sourceTree = "<group>"; };
+		2495F0C022177CB50024300F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2495F09522177CB00024300F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2495F0AC22177CB50024300F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2495F0B722177CB50024300F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2495F08F22177CB00024300F = {
+			isa = PBXGroup;
+			children = (
+				2495F09A22177CB00024300F /* ComprasApp */,
+				2495F0B222177CB50024300F /* ComprasAppTests */,
+				2495F0BD22177CB50024300F /* ComprasAppUITests */,
+				2495F09922177CB00024300F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2495F09922177CB00024300F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2495F09822177CB00024300F /* ComprasApp.app */,
+				2495F0AF22177CB50024300F /* ComprasAppTests.xctest */,
+				2495F0BA22177CB50024300F /* ComprasAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2495F09A22177CB00024300F /* ComprasApp */ = {
+			isa = PBXGroup;
+			children = (
+				2495F09B22177CB00024300F /* AppDelegate.swift */,
+				2495F09D22177CB00024300F /* ViewController.swift */,
+				2495F09F22177CB00024300F /* Main.storyboard */,
+				2495F0A522177CB50024300F /* Assets.xcassets */,
+				2495F0A722177CB50024300F /* LaunchScreen.storyboard */,
+				2495F0AA22177CB50024300F /* Info.plist */,
+				2495F0A222177CB00024300F /* ComprasApp.xcdatamodeld */,
+			);
+			path = ComprasApp;
+			sourceTree = "<group>";
+		};
+		2495F0B222177CB50024300F /* ComprasAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2495F0B322177CB50024300F /* ComprasAppTests.swift */,
+				2495F0B522177CB50024300F /* Info.plist */,
+			);
+			path = ComprasAppTests;
+			sourceTree = "<group>";
+		};
+		2495F0BD22177CB50024300F /* ComprasAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2495F0BE22177CB50024300F /* ComprasAppUITests.swift */,
+				2495F0C022177CB50024300F /* Info.plist */,
+			);
+			path = ComprasAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2495F09722177CB00024300F /* ComprasApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2495F0C322177CB50024300F /* Build configuration list for PBXNativeTarget "ComprasApp" */;
+			buildPhases = (
+				2495F09422177CB00024300F /* Sources */,
+				2495F09522177CB00024300F /* Frameworks */,
+				2495F09622177CB00024300F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComprasApp;
+			productName = ComprasApp;
+			productReference = 2495F09822177CB00024300F /* ComprasApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2495F0AE22177CB50024300F /* ComprasAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2495F0C622177CB50024300F /* Build configuration list for PBXNativeTarget "ComprasAppTests" */;
+			buildPhases = (
+				2495F0AB22177CB50024300F /* Sources */,
+				2495F0AC22177CB50024300F /* Frameworks */,
+				2495F0AD22177CB50024300F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2495F0B122177CB50024300F /* PBXTargetDependency */,
+			);
+			name = ComprasAppTests;
+			productName = ComprasAppTests;
+			productReference = 2495F0AF22177CB50024300F /* ComprasAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2495F0B922177CB50024300F /* ComprasAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2495F0C922177CB50024300F /* Build configuration list for PBXNativeTarget "ComprasAppUITests" */;
+			buildPhases = (
+				2495F0B622177CB50024300F /* Sources */,
+				2495F0B722177CB50024300F /* Frameworks */,
+				2495F0B822177CB50024300F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2495F0BC22177CB50024300F /* PBXTargetDependency */,
+			);
+			name = ComprasAppUITests;
+			productName = ComprasAppUITests;
+			productReference = 2495F0BA22177CB50024300F /* ComprasAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2495F09022177CB00024300F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Henrique Augusto";
+				TargetAttributes = {
+					2495F09722177CB00024300F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2495F0AE22177CB50024300F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2495F09722177CB00024300F;
+					};
+					2495F0B922177CB50024300F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2495F09722177CB00024300F;
+					};
+				};
+			};
+			buildConfigurationList = 2495F09322177CB00024300F /* Build configuration list for PBXProject "ComprasApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2495F08F22177CB00024300F;
+			productRefGroup = 2495F09922177CB00024300F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2495F09722177CB00024300F /* ComprasApp */,
+				2495F0AE22177CB50024300F /* ComprasAppTests */,
+				2495F0B922177CB50024300F /* ComprasAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2495F09622177CB00024300F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2495F0A922177CB50024300F /* LaunchScreen.storyboard in Resources */,
+				2495F0A622177CB50024300F /* Assets.xcassets in Resources */,
+				2495F0A122177CB00024300F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2495F0AD22177CB50024300F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2495F0B822177CB50024300F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2495F09422177CB00024300F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2495F09E22177CB00024300F /* ViewController.swift in Sources */,
+				2495F09C22177CB00024300F /* AppDelegate.swift in Sources */,
+				2495F0A422177CB00024300F /* ComprasApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2495F0AB22177CB50024300F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2495F0B422177CB50024300F /* ComprasAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2495F0B622177CB50024300F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2495F0BF22177CB50024300F /* ComprasAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2495F0B122177CB50024300F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2495F09722177CB00024300F /* ComprasApp */;
+			targetProxy = 2495F0B022177CB50024300F /* PBXContainerItemProxy */;
+		};
+		2495F0BC22177CB50024300F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2495F09722177CB00024300F /* ComprasApp */;
+			targetProxy = 2495F0BB22177CB50024300F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2495F09F22177CB00024300F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2495F0A022177CB00024300F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2495F0A722177CB50024300F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2495F0A822177CB50024300F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2495F0C122177CB50024300F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2495F0C222177CB50024300F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2495F0C422177CB50024300F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ComprasApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrique.ComprasApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2495F0C522177CB50024300F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ComprasApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrique.ComprasApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2495F0C722177CB50024300F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ComprasAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrique.ComprasAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComprasApp.app/ComprasApp";
+			};
+			name = Debug;
+		};
+		2495F0C822177CB50024300F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ComprasAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrique.ComprasAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComprasApp.app/ComprasApp";
+			};
+			name = Release;
+		};
+		2495F0CA22177CB50024300F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ComprasAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrique.ComprasAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ComprasApp;
+			};
+			name = Debug;
+		};
+		2495F0CB22177CB50024300F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ComprasAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrique.ComprasAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ComprasApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2495F09322177CB00024300F /* Build configuration list for PBXProject "ComprasApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2495F0C122177CB50024300F /* Debug */,
+				2495F0C222177CB50024300F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2495F0C322177CB50024300F /* Build configuration list for PBXNativeTarget "ComprasApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2495F0C422177CB50024300F /* Debug */,
+				2495F0C522177CB50024300F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2495F0C622177CB50024300F /* Build configuration list for PBXNativeTarget "ComprasAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2495F0C722177CB50024300F /* Debug */,
+				2495F0C822177CB50024300F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2495F0C922177CB50024300F /* Build configuration list for PBXNativeTarget "ComprasAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2495F0CA22177CB50024300F /* Debug */,
+				2495F0CB22177CB50024300F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2495F0A222177CB00024300F /* ComprasApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2495F0A322177CB00024300F /* ComprasApp.xcdatamodel */,
+			);
+			currentVersion = 2495F0A322177CB00024300F /* ComprasApp.xcdatamodel */;
+			path = ComprasApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2495F09022177CB00024300F /* Project object */;
+}
